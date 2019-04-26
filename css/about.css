@@ -42,3 +42,48 @@
 .about-bottom-section {
   margin-bottom: 30px;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 934px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .about-page-body {
+    padding: 10px;
+  }
+  .about-page-body section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .about-page-body section article {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+  }
+  .about-page-body section article img {
+    width: 100%;
+  }
+
+  .about-page-body section article:first-child {
+    margin: 0px;
+  }
+
+  .about-page-body section article:nth-child(2) {
+    margin: 0px;
+  }
+  .about-page-body section article h2 {
+    margin-top: 10px;
+  }
+  .about-page-body section article p {
+    margin-bottom: 25px;
+  }
+  .about-page-body section article .learn-more {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
