@@ -1,0 +1,44 @@
+.about-section,
+.about-bottom-section {
+  padding-left: 20px;
+}
+.about-page-body {
+  margin-top: 25px;
+  padding: 25px;
+  border-top: 1px dashed black;
+}
+
+.about-page-body section {
+  display: flex;
+  margin-bottom: 40px;
+}
+.about-page-body section article {
+  padding-bottom: 30px;
+  border-bottom: 1px dashed black;
+}
+
+.about-page-body section article:first-child {
+  margin-right: 15px;
+}
+
+.about-page-body section article:nth-child(2) {
+  margin-left: 15px;
+}
+.about-page-body section article h2 {
+  margin-top: 10px;
+}
+.about-page-body section article p {
+  margin-bottom: 25px;
+}
+.about-page-body section article .learn-more {
+  text-decoration: none;
+  color: #444;
+  background: white;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.about-bottom-section {
+  margin-bottom: 30px;
+}
