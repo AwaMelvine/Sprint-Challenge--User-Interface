@@ -279,6 +279,11 @@ header .nav-menu li a {
   margin: 30px auto;
 }
 
+.banner-image img,
+.banner-image .about-page img {
+  width: 100%;
+}
+
 /* Footer */
 
 footer {
@@ -298,4 +303,89 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 934px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  /* Navigation Bar */
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .logo {
+    text-align: center;
+  }
+  header .nav-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .middle-content .boxes .box {
+    width: 16.5%;
+    margin: 5px 0.5%;
+  }
+
+  .top-content {
+    flex-direction: column;
+  }
+
+  .top-content .text-container {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+  }
+
+  /* Bottom Content */
+
+  .bottom-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-content .text-container {
+    padding-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .middle-content .boxes .box {
+    width: 30%;
+    margin: 5px 0.5%;
+  }
+
+  /* Footer */
+
+  footer nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer nav a {
+    display: block;
+    padding: 10px;
+  }
 }
